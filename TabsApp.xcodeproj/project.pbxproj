@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A714E7042D39F55A00C5FF60 /* InicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E7032D39F55A00C5FF60 /* InicioView.swift */; };
+		A714E7072D39FAC300C5FF60 /* NoticiaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E7062D39FAC300C5FF60 /* NoticiaModel.swift */; };
+		A714E70A2D39FB7E00C5FF60 /* NoticiaFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E7092D39FB7E00C5FF60 /* NoticiaFeedView.swift */; };
+		A714E70E2D39FDFC00C5FF60 /* NoticiaFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */; };
 		A7442DAE2D374C3D00233481 /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7442DAD2D374C3D00233481 /* NavigationTestView.swift */; };
 		A7EBD90C2D31FF5300F6BE82 /* TabsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EBD90B2D31FF5300F6BE82 /* TabsAppApp.swift */; };
 		A7EBD90E2D31FF5300F6BE82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EBD90D2D31FF5300F6BE82 /* ContentView.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A714E7032D39F55A00C5FF60 /* InicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioView.swift; sourceTree = "<group>"; };
+		A714E7062D39FAC300C5FF60 /* NoticiaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaModel.swift; sourceTree = "<group>"; };
+		A714E7092D39FB7E00C5FF60 /* NoticiaFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaFeedView.swift; sourceTree = "<group>"; };
+		A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaFeedViewModel.swift; sourceTree = "<group>"; };
 		A7442DAD2D374C3D00233481 /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 		A7EBD9082D31FF5300F6BE82 /* TabsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EBD90B2D31FF5300F6BE82 /* TabsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsAppApp.swift; sourceTree = "<group>"; };
@@ -39,10 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7442DA82D374A7D00233481 /* Inicio */ = {
+		A714E70C2D39FDAA00C5FF60 /* views */ = {
 			isa = PBXGroup;
 			children = (
 				A7EBD91F2D3201BA00F6BE82 /* NoticiaIndividualView.swift */,
+				A714E7032D39F55A00C5FF60 /* InicioView.swift */,
+				A714E7092D39FB7E00C5FF60 /* NoticiaFeedView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A7442DA82D374A7D00233481 /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				A714E70C2D39FDAA00C5FF60 /* views */,
+				A714E7062D39FAC300C5FF60 /* NoticiaModel.swift */,
+				A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */,
 			);
 			path = Inicio;
 			sourceTree = "<group>";
@@ -74,8 +94,8 @@
 		A7EBD90A2D31FF5300F6BE82 /* TabsApp */ = {
 			isa = PBXGroup;
 			children = (
-				A7442DAC2D374BED00233481 /* Borrador */,
 				A7442DA82D374A7D00233481 /* Inicio */,
+				A7442DAC2D374BED00233481 /* Borrador */,
 				A7EBD91D2D31FFD600F6BE82 /* Directorio */,
 				A7EBD91C2D31FFCF00F6BE82 /* ID */,
 				A7EBD91B2D31FFBB00F6BE82 /* Notificaciones */,
@@ -188,10 +208,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7EBD9202D3201BA00F6BE82 /* NoticiaIndividualView.swift in Sources */,
+				A714E70E2D39FDFC00C5FF60 /* NoticiaFeedViewModel.swift in Sources */,
+				A714E7042D39F55A00C5FF60 /* InicioView.swift in Sources */,
 				A7442DAE2D374C3D00233481 /* NavigationTestView.swift in Sources */,
 				A7EBD9252D32030100F6BE82 /* ConveniosView.swift in Sources */,
 				A7EBD90E2D31FF5300F6BE82 /* ContentView.swift in Sources */,
 				A7EBD90C2D31FF5300F6BE82 /* TabsAppApp.swift in Sources */,
+				A714E70A2D39FB7E00C5FF60 /* NoticiaFeedView.swift in Sources */,
+				A714E7072D39FAC300C5FF60 /* NoticiaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

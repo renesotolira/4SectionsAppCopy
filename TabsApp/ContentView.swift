@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+   
     var body: some View {
+       
         VStack{
-        TabView{
+            TabView{
             
-            NoticiaIndividualView()
+            InicioView()
                 .tabItem {
                     Image(systemName: "1.square.fill")
                     Text("Inicio")
@@ -31,11 +34,11 @@ struct ContentView: View {
                 }
             
         }
-        .foregroundColor(.red)
-        .accentColor(Color.green)
-        .padding(.bottom , 8)
-        //.background(Color.green)
-        //.cornerRadius(25)
+            .foregroundColor(.red)
+            .accentColor(Color.green)
+            .padding(.bottom , 8)
+            //.background(Color.green)
+            //.cornerRadius(25)
         }.background(Color.black)
     }
 }
