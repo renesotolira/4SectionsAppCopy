@@ -8,66 +8,73 @@
 import SwiftUI
 
 struct NoticiaIndividualView: View {
-    //Inicio->noticia inico -> noticia indiivuda
+    let screenHeight = UIScreen.main.bounds.height
+    let screenAncho = UIScreen.main.bounds.width
     @Environment(\.presentationMode) var presentationMode
-    
-    init() {
-            
-            UITabBar.appearance().isHidden = true
-        
-            UINavigationBar.appearance().barTintColor =  UIColor(named: "background")
-        
-        //inline
-            UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
-        
-        //large title
-            UINavigationBar.appearance().largeTitleTextAttributes =  [.font : UIFont(name: "Arial-BoldMT", size: 24)!, .foregroundColor : UIColor.white]
-        }
+    var noticia: NoticiaApiModel
+    @StateObject var noticiasApi = NoticiasViewModel()
     
     var body: some View {
-        ZStack{
-           // Color.blue
-            
-            VStack(spacing: 0){
-                Text("Bienvenido a la mejor app del mundo.")
-                   // .foregroundColor(.white)
+        
+        ScrollView(){
+            VStack(alignment: .leading, spacing: 16){
                 
-                Text("----- 😊 ------ ")
-                    .foregroundColor(Color.purple)
-            }
+                HStack(spacing: 16){
+                    
+                    ImagesVisualizer(
+                        url: noticiasApi.noticia.imagen_negocio,
+                        width: 35 ,
+                        height: 35
+                    )
+                    
+                    VStack{
+                        Text(noticiasApi.noticia.nombre_negocio)
+                            .fontWeight(.bold)
+                    }
+                    Spacer()
+                }.padding(6)
+                
+                ImagesVisualizer(
+                    url: noticiasApi.noticia.imagen_predeterminada,
+                    width: screenAncho*0.90 ,
+                    height: screenHeight*0.60,
+                    contentScale: .fit
+                )
+                
+                
+                
+                HStack{
+                    Text(noticiasApi.noticia.titulo)
+                        .font(.custom("Montserrat-ExtraBold", size: 20))
+                    // .font(.title3)
+                    Spacer()
+                }
+                
+                
+                Text(noticiasApi.plainText)
+                    .font(.custom("Montserrat-Regular", size: 20))
+            }.padding(4)
         }
-    
-        .navigationTitle("Inicio")
+        .onAppear(){
+            noticiasApi.getNoticiaById(id: noticia.id)
+        }
+        .navigationTitle(noticiasApi.noticia.titulo)
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)
-        .navigationBarItems(leading:  HStack(spacing: 20){ //inicio de HStack
-            
-            Button(action: {
-                presentationMode.wrappedValue.dismiss()
-            }){
-                Image(systemName:
-                        "arrow.backward")
-                    .font(.largeTitle)
-                    //.font(.system(size: 16, weight: .light, design: .default))
-                    .foregroundColor(.white)
-                    .offset(y: -5)
-            }
-            Image("logo")
-                .resizable()
-                .frame(width: 36 , height: 36)
-                .scaledToFill()
-                .offset(y: -5)
-                
-              
-                                
-        }, trailing: Text("hol").foregroundColor(.white))
+        .navigationBarItems(leading: BackNavBar() )
+        /*, trailing: Text("hol").foregroundColor(.red)
+        */
         
-
+        
+        
+        
     }
 }
 
 struct NoticiaIndividualView_Previews: PreviewProvider {
     static var previews: some View {
-        NoticiaIndividualView()
+        Text("ya dejame en paz")
+        /*NoticiaIndividualView(noticia: NoticiaApiModel(id: 1, title: "titulo" , content: "adios", featured_image: FeaturedImage(thumbnail: "", medium: "", large: "")    , business_logo: "" , business_name: "")
+         )*/
     }
 }

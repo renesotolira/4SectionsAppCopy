@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct NoticiaModel{ //Objeto
+struct NoticiaModel : Identifiable{
+    let uuid: UUID = UUID()
+    let id: Int
     let image: String
     let title: String
     let description: String

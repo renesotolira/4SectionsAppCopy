@@ -7,25 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70E82B62D80C22300B66E49 /* StepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82B52D80C22300B66E49 /* StepView.swift */; };
+		A70E82B92D80C50600B66E49 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82B82D80C50600B66E49 /* Page.swift */; };
+		A70E82BC2D80C62700B66E49 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82BB2D80C62700B66E49 /* PageView.swift */; };
+		A70E82BF2D80D07500B66E49 /* PasosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82BE2D80D07500B66E49 /* PasosView.swift */; };
+		A70E82C22D812F3900B66E49 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82C12D812F3900B66E49 /* SignUpPage.swift */; };
+		A70E82C52D8131B700B66E49 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82C42D8131B700B66E49 /* SignUpView.swift */; };
+		A70F066F2D542D36000B49D5 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F066E2D542D36000B49D5 /* Connection.swift */; };
+		A70F06722D543013000B49D5 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F06712D543013000B49D5 /* ExampleViewModel.swift */; };
 		A714E7042D39F55A00C5FF60 /* InicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E7032D39F55A00C5FF60 /* InicioView.swift */; };
 		A714E7072D39FAC300C5FF60 /* NoticiaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E7062D39FAC300C5FF60 /* NoticiaModel.swift */; };
 		A714E70A2D39FB7E00C5FF60 /* NoticiaFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E7092D39FB7E00C5FF60 /* NoticiaFeedView.swift */; };
 		A714E70E2D39FDFC00C5FF60 /* NoticiaFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */; };
-		A7442DAE2D374C3D00233481 /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7442DAD2D374C3D00233481 /* NavigationTestView.swift */; };
+		A716E8CA2D9649E100CCA716 /* TarjetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716E8C92D9649E000CCA716 /* TarjetaView.swift */; };
+		A716E8D32D964D8500CCA716 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716E8D22D964D8500CCA716 /* UserModel.swift */; };
+		A74671E52D43330A00B9E1BB /* NavegacionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74671E42D43330A00B9E1BB /* NavegacionView.swift */; };
+		A74671E82D4336E700B9E1BB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74671E72D4336E700B9E1BB /* HeaderView.swift */; };
+		A74671EB2D43393100B9E1BB /* TopBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74671EA2D43393100B9E1BB /* TopBarViewModel.swift */; };
+		A74816C32D77F5A30039045F /* NegocioApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74816C22D77F5A30039045F /* NegocioApiModel.swift */; };
+		A74816C62D77F8590039045F /* NegocioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74816C52D77F8590039045F /* NegocioView.swift */; };
+		A76BF77B2D6827A700F0EED5 /* NoticiaIndividualApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76BF77A2D6827A700F0EED5 /* NoticiaIndividualApiModel.swift */; };
+		A76F0F582D49BFF1006D1C45 /* NavigationBarDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F0F572D49BFF1006D1C45 /* NavigationBarDesign.swift */; };
+		A76F0F5C2D49C3FF006D1C45 /* LogoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F0F5B2D49C3FF006D1C45 /* LogoHeaderView.swift */; };
+		A76F0F602D49CA59006D1C45 /* NoticiaApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F0F5F2D49CA59006D1C45 /* NoticiaApiModel.swift */; };
+		A76F0F642D49CC11006D1C45 /* NoticiasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F0F632D49CC11006D1C45 /* NoticiasViewModel.swift */; };
+		A7715E9A2D9B58ED00D8FE9F /* PickerNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7715E992D9B58ED00D8FE9F /* PickerNavView.swift */; };
+		A78949572D8D0A9300927B04 /* request.gif in Resources */ = {isa = PBXBuildFile; fileRef = A78949542D8D0A9100927B04 /* request.gif */; };
+		A78949582D8D0A9300927B04 /* success.gif in Resources */ = {isa = PBXBuildFile; fileRef = A78949552D8D0A9200927B04 /* success.gif */; };
+		A78949592D8D0A9300927B04 /* error.gif in Resources */ = {isa = PBXBuildFile; fileRef = A78949562D8D0A9200927B04 /* error.gif */; };
+		A789495D2D8D195900927B04 /* ErrorSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A789495C2D8D195900927B04 /* ErrorSignUpView.swift */; };
+		A78949602D8D196800927B04 /* SuccessSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A789495F2D8D196800927B04 /* SuccessSignUpView.swift */; };
+		A78EBC342DA625AD00197E8B /* BackNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78EBC332DA625AD00197E8B /* BackNavBar.swift */; };
+		A79626EB2D55C988003FF738 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CEC2D55BA5D00529B03 /* Montserrat-Italic-VariableFont_wght.ttf */; };
+		A79626EC2D55C988003FF738 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CED2D55BA5E00529B03 /* Montserrat-VariableFont_wght.ttf */; };
+		A79626ED2D55C988003FF738 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CEB2D55BA3000529B03 /* Montserrat-Black.ttf */; };
+		A79626EE2D55C988003FF738 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE12D55BA2D00529B03 /* Montserrat-BlackItalic.ttf */; };
+		A79626EF2D55C988003FF738 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE02D55BA2D00529B03 /* Montserrat-Bold.ttf */; };
+		A79626F02D55C988003FF738 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CDB2D55BA2C00529B03 /* Montserrat-BoldItalic.ttf */; };
+		A79626F12D55C988003FF738 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE72D55BA2F00529B03 /* Montserrat-ExtraBold.ttf */; };
+		A79626F22D55C988003FF738 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CDC2D55BA2C00529B03 /* Montserrat-ExtraBoldItalic.ttf */; };
+		A79626F32D55C988003FF738 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE52D55BA2E00529B03 /* Montserrat-ExtraLight.ttf */; };
+		A79626F42D55C988003FF738 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE42D55BA2E00529B03 /* Montserrat-ExtraLightItalic.ttf */; };
+		A79626F52D55C988003FF738 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE92D55BA2F00529B03 /* Montserrat-Italic.ttf */; };
+		A79626F62D55C988003FF738 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE82D55BA2F00529B03 /* Montserrat-Light.ttf */; };
+		A79626F72D55C988003FF738 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CDA2D55BA2C00529B03 /* Montserrat-LightItalic.ttf */; };
+		A79626F82D55C988003FF738 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CDF2D55BA2D00529B03 /* Montserrat-Medium.ttf */; };
+		A79626F92D55C988003FF738 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CEA2D55BA3000529B03 /* Montserrat-MediumItalic.ttf */; };
+		A79626FA2D55C988003FF738 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CDD2D55BA2C00529B03 /* Montserrat-Regular.ttf */; };
+		A79626FB2D55C988003FF738 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE62D55BA2F00529B03 /* Montserrat-SemiBold.ttf */; };
+		A79626FC2D55C988003FF738 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE32D55BA2E00529B03 /* Montserrat-SemiBoldItalic.ttf */; };
+		A79626FD2D55C988003FF738 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CDE2D55BA2D00529B03 /* Montserrat-Thin.ttf */; };
+		A79626FE2D55C988003FF738 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE22D55BA2D00529B03 /* Montserrat-ThinItalic.ttf */; };
+		A799A4A62D55AFE200BA3424 /* ImagesVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A799A4A52D55AFE200BA3424 /* ImagesVisualizer.swift */; };
+		A7A9A0582D4C74C800BA47DE /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9A0572D4C74C800BA47DE /* AsyncImage.swift */; };
+		A7A9A05C2D4C74E500BA47DE /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9A05A2D4C74E500BA47DE /* ImageLoader.swift */; };
+		A7A9A05D2D4C74E500BA47DE /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9A05B2D4C74E500BA47DE /* ImageCache.swift */; };
+		A7A9A0602D4C750300BA47DE /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9A05F2D4C750300BA47DE /* EnvironmentValues+ImageCache.swift */; };
+		A7BCB4C82D6585A10002086D /* ListadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB4C72D6585A10002086D /* ListadoView.swift */; };
+		A7BCB4CD2D6587CB0002086D /* ListadoApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB4CC2D6587CB0002086D /* ListadoApiModel.swift */; };
+		A7C112EF2DA8BA3900048ABE /* NegociosListaApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C112EE2DA8BA3900048ABE /* NegociosListaApiModel.swift */; };
+		A7C112F32DA8C7B600048ABE /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C112F22DA8C7B600048ABE /* BusinessRow.swift */; };
+		A7D53EC62D83D119004BAB33 /* typing03.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7D53EC52D83D118004BAB33 /* typing03.gif */; };
+		A7D53ED72D83D63C004BAB33 /* tramita02.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7D53ED62D83D63C004BAB33 /* tramita02.gif */; };
+		A7DD98F12D4088C1007CCA38 /* ListaPruebaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD98F02D4088C1007CCA38 /* ListaPruebaView.swift */; };
+		A7DD98F42D4089D5007CCA38 /* ListaConForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD98F32D4089D5007CCA38 /* ListaConForEachView.swift */; };
+		A7E79E812D813989003879E6 /* SwiftUIGIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E79E802D813989003879E6 /* SwiftUIGIFPlayerView.swift */; };
+		A7E79E842D8139D2003879E6 /* GIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E79E832D8139D2003879E6 /* GIFPlayerView.swift */; };
+		A7E79E872D813A0D003879E6 /* GifExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E79E862D813A0D003879E6 /* GifExampleView.swift */; };
+		A7E79E902D813CE3003879E6 /* typing.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7E79E8F2D813CE3003879E6 /* typing.gif */; };
+		A7E79E942D813DFA003879E6 /* typing02.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7E79E932D813DF9003879E6 /* typing02.gif */; };
+		A7E8B32B2D5EE413008B196B /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E8B32A2D5EE413008B196B /* Images.swift */; };
 		A7EBD90C2D31FF5300F6BE82 /* TabsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EBD90B2D31FF5300F6BE82 /* TabsAppApp.swift */; };
 		A7EBD90E2D31FF5300F6BE82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EBD90D2D31FF5300F6BE82 /* ContentView.swift */; };
 		A7EBD9102D31FF5500F6BE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EBD90F2D31FF5500F6BE82 /* Assets.xcassets */; };
 		A7EBD9132D31FF5500F6BE82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EBD9122D31FF5500F6BE82 /* Preview Assets.xcassets */; };
 		A7EBD9202D3201BA00F6BE82 /* NoticiaIndividualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EBD91F2D3201BA00F6BE82 /* NoticiaIndividualView.swift */; };
-		A7EBD9252D32030100F6BE82 /* ConveniosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EBD9242D32030100F6BE82 /* ConveniosView.swift */; };
+		A7EBD9252D32030100F6BE82 /* ConveniosPruebasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EBD9242D32030100F6BE82 /* ConveniosPruebasView.swift */; };
+		A7FB612C2D835D0C00E7C806 /* FormatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB612B2D835D0C00E7C806 /* FormatoView.swift */; };
+		A7FC4BBB2D5C47B2009D6D6F /* ConveniosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC4BBA2D5C47B2009D6D6F /* ConveniosView.swift */; };
+		A7FC4BBF2D5C49D6009D6D6F /* ConveniosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC4BBE2D5C49D6009D6D6F /* ConveniosViewModel.swift */; };
+		A7FC4BC22D5C4EEB009D6D6F /* ConveniosApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC4BC12D5C4EEB009D6D6F /* ConveniosApiModel.swift */; };
+		A7FCD1132D8A67F600AED5DA /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD1122D8A67F600AED5DA /* VerificationCodeView.swift */; };
+		A7FCD1162D8A6F8E00AED5DA /* verificationCode.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7FCD1152D8A6F8E00AED5DA /* verificationCode.gif */; };
+		A7FCD1192D8A735300AED5DA /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD1182D8A735300AED5DA /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A70E82B52D80C22300B66E49 /* StepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepView.swift; sourceTree = "<group>"; };
+		A70E82B82D80C50600B66E49 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		A70E82BB2D80C62700B66E49 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		A70E82BE2D80D07500B66E49 /* PasosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasosView.swift; sourceTree = "<group>"; };
+		A70E82C12D812F3900B66E49 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		A70E82C42D8131B700B66E49 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A70F066E2D542D36000B49D5 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		A70F06712D543013000B49D5 /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
 		A714E7032D39F55A00C5FF60 /* InicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioView.swift; sourceTree = "<group>"; };
 		A714E7062D39FAC300C5FF60 /* NoticiaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaModel.swift; sourceTree = "<group>"; };
 		A714E7092D39FB7E00C5FF60 /* NoticiaFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaFeedView.swift; sourceTree = "<group>"; };
 		A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaFeedViewModel.swift; sourceTree = "<group>"; };
-		A7442DAD2D374C3D00233481 /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
+		A716E8C92D9649E000CCA716 /* TarjetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetaView.swift; sourceTree = "<group>"; };
+		A716E8D22D964D8500CCA716 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A74671E42D43330A00B9E1BB /* NavegacionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionView.swift; sourceTree = "<group>"; };
+		A74671E72D4336E700B9E1BB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A74671EA2D43393100B9E1BB /* TopBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarViewModel.swift; sourceTree = "<group>"; };
+		A74816C22D77F5A30039045F /* NegocioApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegocioApiModel.swift; sourceTree = "<group>"; };
+		A74816C52D77F8590039045F /* NegocioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegocioView.swift; sourceTree = "<group>"; };
+		A76BF77A2D6827A700F0EED5 /* NoticiaIndividualApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaIndividualApiModel.swift; sourceTree = "<group>"; };
+		A76F0F572D49BFF1006D1C45 /* NavigationBarDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDesign.swift; sourceTree = "<group>"; };
+		A76F0F5B2D49C3FF006D1C45 /* LogoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoHeaderView.swift; sourceTree = "<group>"; };
+		A76F0F5F2D49CA59006D1C45 /* NoticiaApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaApiModel.swift; sourceTree = "<group>"; };
+		A76F0F632D49CC11006D1C45 /* NoticiasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiasViewModel.swift; sourceTree = "<group>"; };
+		A7715E992D9B58ED00D8FE9F /* PickerNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerNavView.swift; sourceTree = "<group>"; };
+		A7860CDA2D55BA2C00529B03 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		A7860CDB2D55BA2C00529B03 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A7860CDC2D55BA2C00529B03 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A7860CDD2D55BA2C00529B03 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		A7860CDE2D55BA2D00529B03 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		A7860CDF2D55BA2D00529B03 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		A7860CE02D55BA2D00529B03 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		A7860CE12D55BA2D00529B03 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A7860CE22D55BA2D00529B03 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A7860CE32D55BA2E00529B03 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A7860CE42D55BA2E00529B03 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A7860CE52D55BA2E00529B03 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A7860CE62D55BA2F00529B03 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		A7860CE72D55BA2F00529B03 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A7860CE82D55BA2F00529B03 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		A7860CE92D55BA2F00529B03 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		A7860CEA2D55BA3000529B03 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A7860CEB2D55BA3000529B03 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		A7860CEC2D55BA5D00529B03 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A7860CED2D55BA5E00529B03 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A78949542D8D0A9100927B04 /* request.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = request.gif; sourceTree = "<group>"; };
+		A78949552D8D0A9200927B04 /* success.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = success.gif; sourceTree = "<group>"; };
+		A78949562D8D0A9200927B04 /* error.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = error.gif; sourceTree = "<group>"; };
+		A789495C2D8D195900927B04 /* ErrorSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorSignUpView.swift; sourceTree = "<group>"; };
+		A789495F2D8D196800927B04 /* SuccessSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessSignUpView.swift; sourceTree = "<group>"; };
+		A78EBC332DA625AD00197E8B /* BackNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackNavBar.swift; sourceTree = "<group>"; };
+		A799A4A52D55AFE200BA3424 /* ImagesVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesVisualizer.swift; sourceTree = "<group>"; };
+		A7A9A0572D4C74C800BA47DE /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		A7A9A05A2D4C74E500BA47DE /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		A7A9A05B2D4C74E500BA47DE /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		A7A9A05F2D4C750300BA47DE /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		A7BCB4C72D6585A10002086D /* ListadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoView.swift; sourceTree = "<group>"; };
+		A7BCB4CC2D6587CB0002086D /* ListadoApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoApiModel.swift; sourceTree = "<group>"; };
+		A7C112EE2DA8BA3900048ABE /* NegociosListaApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegociosListaApiModel.swift; sourceTree = "<group>"; };
+		A7C112F22DA8C7B600048ABE /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
+		A7D53EC52D83D118004BAB33 /* typing03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = typing03.gif; sourceTree = "<group>"; };
+		A7D53ED62D83D63C004BAB33 /* tramita02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tramita02.gif; sourceTree = "<group>"; };
+		A7DD98F02D4088C1007CCA38 /* ListaPruebaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPruebaView.swift; sourceTree = "<group>"; };
+		A7DD98F32D4089D5007CCA38 /* ListaConForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaConForEachView.swift; sourceTree = "<group>"; };
+		A7E79E802D813989003879E6 /* SwiftUIGIFPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGIFPlayerView.swift; sourceTree = "<group>"; };
+		A7E79E832D8139D2003879E6 /* GIFPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFPlayerView.swift; sourceTree = "<group>"; };
+		A7E79E862D813A0D003879E6 /* GifExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifExampleView.swift; sourceTree = "<group>"; };
+		A7E79E8F2D813CE3003879E6 /* typing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = typing.gif; sourceTree = "<group>"; };
+		A7E79E932D813DF9003879E6 /* typing02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = typing02.gif; sourceTree = "<group>"; };
+		A7E8B32A2D5EE413008B196B /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		A7EBD9082D31FF5300F6BE82 /* TabsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EBD90B2D31FF5300F6BE82 /* TabsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsAppApp.swift; sourceTree = "<group>"; };
 		A7EBD90D2D31FF5300F6BE82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,7 +170,14 @@
 		A7EBD9122D31FF5500F6BE82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7EBD9142D31FF5500F6BE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7EBD91F2D3201BA00F6BE82 /* NoticiaIndividualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaIndividualView.swift; sourceTree = "<group>"; };
-		A7EBD9242D32030100F6BE82 /* ConveniosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveniosView.swift; sourceTree = "<group>"; };
+		A7EBD9242D32030100F6BE82 /* ConveniosPruebasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveniosPruebasView.swift; sourceTree = "<group>"; };
+		A7FB612B2D835D0C00E7C806 /* FormatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatoView.swift; sourceTree = "<group>"; };
+		A7FC4BBA2D5C47B2009D6D6F /* ConveniosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveniosView.swift; sourceTree = "<group>"; };
+		A7FC4BBE2D5C49D6009D6D6F /* ConveniosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveniosViewModel.swift; sourceTree = "<group>"; };
+		A7FC4BC12D5C4EEB009D6D6F /* ConveniosApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveniosApiModel.swift; sourceTree = "<group>"; };
+		A7FCD1122D8A67F600AED5DA /* VerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
+		A7FCD1152D8A6F8E00AED5DA /* verificationCode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = verificationCode.gif; sourceTree = "<group>"; };
+		A7FCD1182D8A735300AED5DA /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,22 +191,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A70F066D2D542D20000B49D5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A70F066E2D542D36000B49D5 /* Connection.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		A714E70C2D39FDAA00C5FF60 /* views */ = {
 			isa = PBXGroup;
 			children = (
 				A7EBD91F2D3201BA00F6BE82 /* NoticiaIndividualView.swift */,
 				A714E7032D39F55A00C5FF60 /* InicioView.swift */,
 				A714E7092D39FB7E00C5FF60 /* NoticiaFeedView.swift */,
+				A7DD98F02D4088C1007CCA38 /* ListaPruebaView.swift */,
+				A7DD98F32D4089D5007CCA38 /* ListaConForEachView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		A716E8CC2D9649EC00CCA716 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A716E8C92D9649E000CCA716 /* TarjetaView.swift */,
+				A789495F2D8D196800927B04 /* SuccessSignUpView.swift */,
+				A789495C2D8D195900927B04 /* ErrorSignUpView.swift */,
+				A7FCD1122D8A67F600AED5DA /* VerificationCodeView.swift */,
+				A70E82C42D8131B700B66E49 /* SignUpView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A716E8D12D964D6800CCA716 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A70E82C12D812F3900B66E49 /* SignUpPage.swift */,
+				A716E8D22D964D8500CCA716 /* UserModel.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 		A7442DA82D374A7D00233481 /* Inicio */ = {
 			isa = PBXGroup;
 			children = (
+				A76F0F622D49CBEC006D1C45 /* viewmodel */,
+				A76F0F5E2D49CA14006D1C45 /* models */,
 				A714E70C2D39FDAA00C5FF60 /* views */,
-				A714E7062D39FAC300C5FF60 /* NoticiaModel.swift */,
-				A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */,
 			);
 			path = Inicio;
 			sourceTree = "<group>";
@@ -70,9 +245,128 @@
 		A7442DAC2D374BED00233481 /* Borrador */ = {
 			isa = PBXGroup;
 			children = (
-				A7442DAD2D374C3D00233481 /* NavigationTestView.swift */,
 			);
 			path = Borrador;
+			sourceTree = "<group>";
+		};
+		A76F0F562D49BFD9006D1C45 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				A76F0F572D49BFF1006D1C45 /* NavigationBarDesign.swift */,
+				A76F0F5B2D49C3FF006D1C45 /* LogoHeaderView.swift */,
+				A7E8B32A2D5EE413008B196B /* Images.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		A76F0F5E2D49CA14006D1C45 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A714E7062D39FAC300C5FF60 /* NoticiaModel.swift */,
+				A76F0F5F2D49CA59006D1C45 /* NoticiaApiModel.swift */,
+				A76BF77A2D6827A700F0EED5 /* NoticiaIndividualApiModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A76F0F622D49CBEC006D1C45 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */,
+				A76F0F632D49CC11006D1C45 /* NoticiasViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		A7860CD92D55BA0D00529B03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A7860CEC2D55BA5D00529B03 /* Montserrat-Italic-VariableFont_wght.ttf */,
+				A7860CED2D55BA5E00529B03 /* Montserrat-VariableFont_wght.ttf */,
+				A7860CEB2D55BA3000529B03 /* Montserrat-Black.ttf */,
+				A7860CE12D55BA2D00529B03 /* Montserrat-BlackItalic.ttf */,
+				A7860CE02D55BA2D00529B03 /* Montserrat-Bold.ttf */,
+				A7860CDB2D55BA2C00529B03 /* Montserrat-BoldItalic.ttf */,
+				A7860CE72D55BA2F00529B03 /* Montserrat-ExtraBold.ttf */,
+				A7860CDC2D55BA2C00529B03 /* Montserrat-ExtraBoldItalic.ttf */,
+				A7860CE52D55BA2E00529B03 /* Montserrat-ExtraLight.ttf */,
+				A7860CE42D55BA2E00529B03 /* Montserrat-ExtraLightItalic.ttf */,
+				A7860CE92D55BA2F00529B03 /* Montserrat-Italic.ttf */,
+				A7860CE82D55BA2F00529B03 /* Montserrat-Light.ttf */,
+				A7860CDA2D55BA2C00529B03 /* Montserrat-LightItalic.ttf */,
+				A7860CDF2D55BA2D00529B03 /* Montserrat-Medium.ttf */,
+				A7860CEA2D55BA3000529B03 /* Montserrat-MediumItalic.ttf */,
+				A7860CDD2D55BA2C00529B03 /* Montserrat-Regular.ttf */,
+				A7860CE62D55BA2F00529B03 /* Montserrat-SemiBold.ttf */,
+				A7860CE32D55BA2E00529B03 /* Montserrat-SemiBoldItalic.ttf */,
+				A7860CDE2D55BA2D00529B03 /* Montserrat-Thin.ttf */,
+				A7860CE22D55BA2D00529B03 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A799A4A12D55AE8700BA3424 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A799A4A42D55AF5D00BA3424 /* View */,
+				A7A9A0562D4C74B600BA47DE /* Utils */,
+				A76F0F562D49BFD9006D1C45 /* Configs */,
+				A70F066D2D542D20000B49D5 /* Network */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A799A4A42D55AF5D00BA3424 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A799A4A52D55AFE200BA3424 /* ImagesVisualizer.swift */,
+				A78EBC332DA625AD00197E8B /* BackNavBar.swift */,
+				A7C112F22DA8C7B600048ABE /* BusinessRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7A9A0562D4C74B600BA47DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A7E79E8C2D813AF4003879E6 /* Gif */,
+				A7A9A0572D4C74C800BA47DE /* AsyncImage.swift */,
+				A7A9A05B2D4C74E500BA47DE /* ImageCache.swift */,
+				A7A9A05F2D4C750300BA47DE /* EnvironmentValues+ImageCache.swift */,
+				A7A9A05A2D4C74E500BA47DE /* ImageLoader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A7BCB4CA2D6585A90002086D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7BCB4C72D6585A10002086D /* ListadoView.swift */,
+				A7FC4BBA2D5C47B2009D6D6F /* ConveniosView.swift */,
+				A74816C52D77F8590039045F /* NegocioView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7BCB4CB2D6587B10002086D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7FC4BC12D5C4EEB009D6D6F /* ConveniosApiModel.swift */,
+				A7BCB4CC2D6587CB0002086D /* ListadoApiModel.swift */,
+				A74816C22D77F5A30039045F /* NegocioApiModel.swift */,
+				A7C112EE2DA8BA3900048ABE /* NegociosListaApiModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7E79E8C2D813AF4003879E6 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				A7E79E802D813989003879E6 /* SwiftUIGIFPlayerView.swift */,
+				A7E79E832D8139D2003879E6 /* GIFPlayerView.swift */,
+				A7E79E862D813A0D003879E6 /* GifExampleView.swift */,
+			);
+			path = Gif;
 			sourceTree = "<group>";
 		};
 		A7EBD8FF2D31FF5200F6BE82 = {
@@ -94,6 +388,9 @@
 		A7EBD90A2D31FF5300F6BE82 /* TabsApp */ = {
 			isa = PBXGroup;
 			children = (
+				A7FC4BB92D5C479C009D6D6F /* Pruebas */,
+				A7860CD92D55BA0D00529B03 /* Fonts */,
+				A799A4A12D55AE8700BA3424 /* Shared */,
 				A7442DA82D374A7D00233481 /* Inicio */,
 				A7442DAC2D374BED00233481 /* Borrador */,
 				A7EBD91D2D31FFD600F6BE82 /* Directorio */,
@@ -101,9 +398,18 @@
 				A7EBD91B2D31FFBB00F6BE82 /* Notificaciones */,
 				A7EBD90B2D31FF5300F6BE82 /* TabsAppApp.swift */,
 				A7EBD90D2D31FF5300F6BE82 /* ContentView.swift */,
+				A7D53EC52D83D118004BAB33 /* typing03.gif */,
+				A7E79E932D813DF9003879E6 /* typing02.gif */,
+				A7FCD1152D8A6F8E00AED5DA /* verificationCode.gif */,
+				A7D53ED62D83D63C004BAB33 /* tramita02.gif */,
+				A78949562D8D0A9200927B04 /* error.gif */,
+				A78949542D8D0A9100927B04 /* request.gif */,
+				A78949552D8D0A9200927B04 /* success.gif */,
+				A7E79E8F2D813CE3003879E6 /* typing.gif */,
 				A7EBD90F2D31FF5500F6BE82 /* Assets.xcassets */,
 				A7EBD9142D31FF5500F6BE82 /* Info.plist */,
 				A7EBD9112D31FF5500F6BE82 /* Preview Content */,
+				A74671EA2D43393100B9E1BB /* TopBarViewModel.swift */,
 			);
 			path = TabsApp;
 			sourceTree = "<group>";
@@ -126,7 +432,9 @@
 		A7EBD91C2D31FFCF00F6BE82 /* ID */ = {
 			isa = PBXGroup;
 			children = (
-				A7EBD9242D32030100F6BE82 /* ConveniosView.swift */,
+				A716E8D12D964D6800CCA716 /* models */,
+				A716E8CC2D9649EC00CCA716 /* views */,
+				A7FCD1182D8A735300AED5DA /* SignUpViewModel.swift */,
 			);
 			path = ID;
 			sourceTree = "<group>";
@@ -134,8 +442,28 @@
 		A7EBD91D2D31FFD600F6BE82 /* Directorio */ = {
 			isa = PBXGroup;
 			children = (
+				A7BCB4CB2D6587B10002086D /* Models */,
+				A7BCB4CA2D6585A90002086D /* Views */,
+				A7FC4BBE2D5C49D6009D6D6F /* ConveniosViewModel.swift */,
 			);
 			path = Directorio;
+			sourceTree = "<group>";
+		};
+		A7FC4BB92D5C479C009D6D6F /* Pruebas */ = {
+			isa = PBXGroup;
+			children = (
+				A70F06712D543013000B49D5 /* ExampleViewModel.swift */,
+				A74671E42D43330A00B9E1BB /* NavegacionView.swift */,
+				A74671E72D4336E700B9E1BB /* HeaderView.swift */,
+				A7EBD9242D32030100F6BE82 /* ConveniosPruebasView.swift */,
+				A70E82B52D80C22300B66E49 /* StepView.swift */,
+				A70E82B82D80C50600B66E49 /* Page.swift */,
+				A70E82BB2D80C62700B66E49 /* PageView.swift */,
+				A70E82BE2D80D07500B66E49 /* PasosView.swift */,
+				A7FB612B2D835D0C00E7C806 /* FormatoView.swift */,
+				A7715E992D9B58ED00D8FE9F /* PickerNavView.swift */,
+			);
+			path = Pruebas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +523,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79626EB2D55C988003FF738 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
+				A79626EC2D55C988003FF738 /* Montserrat-VariableFont_wght.ttf in Resources */,
+				A79626ED2D55C988003FF738 /* Montserrat-Black.ttf in Resources */,
+				A79626EE2D55C988003FF738 /* Montserrat-BlackItalic.ttf in Resources */,
+				A79626EF2D55C988003FF738 /* Montserrat-Bold.ttf in Resources */,
+				A78949592D8D0A9300927B04 /* error.gif in Resources */,
+				A79626F02D55C988003FF738 /* Montserrat-BoldItalic.ttf in Resources */,
+				A79626F12D55C988003FF738 /* Montserrat-ExtraBold.ttf in Resources */,
+				A79626F22D55C988003FF738 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				A79626F32D55C988003FF738 /* Montserrat-ExtraLight.ttf in Resources */,
+				A79626F42D55C988003FF738 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				A79626F52D55C988003FF738 /* Montserrat-Italic.ttf in Resources */,
+				A7D53ED72D83D63C004BAB33 /* tramita02.gif in Resources */,
+				A79626F62D55C988003FF738 /* Montserrat-Light.ttf in Resources */,
+				A79626F72D55C988003FF738 /* Montserrat-LightItalic.ttf in Resources */,
+				A7FCD1162D8A6F8E00AED5DA /* verificationCode.gif in Resources */,
+				A79626F82D55C988003FF738 /* Montserrat-Medium.ttf in Resources */,
+				A78949572D8D0A9300927B04 /* request.gif in Resources */,
+				A79626F92D55C988003FF738 /* Montserrat-MediumItalic.ttf in Resources */,
+				A78949582D8D0A9300927B04 /* success.gif in Resources */,
+				A79626FA2D55C988003FF738 /* Montserrat-Regular.ttf in Resources */,
+				A79626FB2D55C988003FF738 /* Montserrat-SemiBold.ttf in Resources */,
+				A7E79E902D813CE3003879E6 /* typing.gif in Resources */,
+				A79626FC2D55C988003FF738 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				A79626FD2D55C988003FF738 /* Montserrat-Thin.ttf in Resources */,
+				A79626FE2D55C988003FF738 /* Montserrat-ThinItalic.ttf in Resources */,
+				A7E79E942D813DFA003879E6 /* typing02.gif in Resources */,
 				A7EBD9132D31FF5500F6BE82 /* Preview Assets.xcassets in Resources */,
+				A7D53EC62D83D119004BAB33 /* typing03.gif in Resources */,
 				A7EBD9102D31FF5500F6BE82 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,14 +564,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7EBD9202D3201BA00F6BE82 /* NoticiaIndividualView.swift in Sources */,
+				A716E8D32D964D8500CCA716 /* UserModel.swift in Sources */,
+				A7BCB4CD2D6587CB0002086D /* ListadoApiModel.swift in Sources */,
+				A70F066F2D542D36000B49D5 /* Connection.swift in Sources */,
 				A714E70E2D39FDFC00C5FF60 /* NoticiaFeedViewModel.swift in Sources */,
+				A7E79E872D813A0D003879E6 /* GifExampleView.swift in Sources */,
+				A7E79E842D8139D2003879E6 /* GIFPlayerView.swift in Sources */,
+				A70E82B92D80C50600B66E49 /* Page.swift in Sources */,
+				A7FB612C2D835D0C00E7C806 /* FormatoView.swift in Sources */,
+				A7C112EF2DA8BA3900048ABE /* NegociosListaApiModel.swift in Sources */,
+				A74671EB2D43393100B9E1BB /* TopBarViewModel.swift in Sources */,
+				A7DD98F42D4089D5007CCA38 /* ListaConForEachView.swift in Sources */,
+				A799A4A62D55AFE200BA3424 /* ImagesVisualizer.swift in Sources */,
+				A74671E52D43330A00B9E1BB /* NavegacionView.swift in Sources */,
+				A76F0F602D49CA59006D1C45 /* NoticiaApiModel.swift in Sources */,
 				A714E7042D39F55A00C5FF60 /* InicioView.swift in Sources */,
-				A7442DAE2D374C3D00233481 /* NavigationTestView.swift in Sources */,
-				A7EBD9252D32030100F6BE82 /* ConveniosView.swift in Sources */,
+				A76F0F5C2D49C3FF006D1C45 /* LogoHeaderView.swift in Sources */,
+				A7DD98F12D4088C1007CCA38 /* ListaPruebaView.swift in Sources */,
+				A7A9A05C2D4C74E500BA47DE /* ImageLoader.swift in Sources */,
+				A70E82C22D812F3900B66E49 /* SignUpPage.swift in Sources */,
+				A7A9A05D2D4C74E500BA47DE /* ImageCache.swift in Sources */,
+				A78949602D8D196800927B04 /* SuccessSignUpView.swift in Sources */,
+				A76F0F582D49BFF1006D1C45 /* NavigationBarDesign.swift in Sources */,
+				A7FC4BC22D5C4EEB009D6D6F /* ConveniosApiModel.swift in Sources */,
+				A7A9A0582D4C74C800BA47DE /* AsyncImage.swift in Sources */,
+				A7FCD1192D8A735300AED5DA /* SignUpViewModel.swift in Sources */,
+				A7BCB4C82D6585A10002086D /* ListadoView.swift in Sources */,
+				A76BF77B2D6827A700F0EED5 /* NoticiaIndividualApiModel.swift in Sources */,
+				A7EBD9252D32030100F6BE82 /* ConveniosPruebasView.swift in Sources */,
+				A74671E82D4336E700B9E1BB /* HeaderView.swift in Sources */,
+				A7FCD1132D8A67F600AED5DA /* VerificationCodeView.swift in Sources */,
+				A7FC4BBF2D5C49D6009D6D6F /* ConveniosViewModel.swift in Sources */,
+				A70F06722D543013000B49D5 /* ExampleViewModel.swift in Sources */,
+				A76F0F642D49CC11006D1C45 /* NoticiasViewModel.swift in Sources */,
+				A70E82BC2D80C62700B66E49 /* PageView.swift in Sources */,
+				A7E8B32B2D5EE413008B196B /* Images.swift in Sources */,
+				A7A9A0602D4C750300BA47DE /* EnvironmentValues+ImageCache.swift in Sources */,
+				A7FC4BBB2D5C47B2009D6D6F /* ConveniosView.swift in Sources */,
+				A74816C62D77F8590039045F /* NegocioView.swift in Sources */,
+				A78EBC342DA625AD00197E8B /* BackNavBar.swift in Sources */,
+				A7C112F32DA8C7B600048ABE /* BusinessRow.swift in Sources */,
 				A7EBD90E2D31FF5300F6BE82 /* ContentView.swift in Sources */,
 				A7EBD90C2D31FF5300F6BE82 /* TabsAppApp.swift in Sources */,
 				A714E70A2D39FB7E00C5FF60 /* NoticiaFeedView.swift in Sources */,
+				A70E82C52D8131B700B66E49 /* SignUpView.swift in Sources */,
 				A714E7072D39FAC300C5FF60 /* NoticiaModel.swift in Sources */,
+				A716E8CA2D9649E100CCA716 /* TarjetaView.swift in Sources */,
+				A70E82B62D80C22300B66E49 /* StepView.swift in Sources */,
+				A74816C32D77F5A30039045F /* NegocioApiModel.swift in Sources */,
+				A7715E9A2D9B58ED00D8FE9F /* PickerNavView.swift in Sources */,
+				A7E79E812D813989003879E6 /* SwiftUIGIFPlayerView.swift in Sources */,
+				A70E82BF2D80D07500B66E49 /* PasosView.swift in Sources */,
+				A789495D2D8D195900927B04 /* ErrorSignUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
