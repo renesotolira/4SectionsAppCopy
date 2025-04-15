@@ -81,7 +81,7 @@ struct NegocioView: View {
             }
             .padding(0)
             .onAppear(){
-                print("buscar negocio id \(id)")
+               
                 conveniosApi.getNegocioById(id: id)
             }
             .navigationTitle(conveniosApi.negocio.titulo)

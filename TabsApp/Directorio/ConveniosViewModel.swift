@@ -93,8 +93,6 @@ class ConveniosViewModel: ObservableObject{
                 else if(which == "allBusiness"){
                     let decoded = try JSONDecoder().decode( [NegociosListaApiModel].self , from: datos)
                     self.searchNegocios = decoded
-                    print("si se guardo ")
-                    print(self.searchNegocios)
                 }
                 else{ //negocio individual
                     let decoded = try JSONDecoder().decode( NegocioApiModel.self , from: datos)

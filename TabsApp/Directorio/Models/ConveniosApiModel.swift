@@ -14,5 +14,3 @@ struct ConveniosApiModel: Decodable{
 }
 
 
-
-
