@@ -38,9 +38,23 @@ struct ContentView: View {
        
     }
     
+    @State private var showSplash = true
+    
     var body: some View {
         ZStack{
-            VStack{
+            /*1 -> splashScreen  launcher  (2o3segundos)*/
+            if(showSplash){
+                
+                Color.white
+                //interfaz del icono
+                VStack{
+                    Image(Images.screenLogo)
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .scaledToFit()
+                }
+            }else{
+                VStack{
                 
                 TabView(selection: $selectedTabItem){
                     NavigationView{
@@ -66,7 +80,7 @@ struct ContentView: View {
                     }.tag(2)
                     
                     NavigationView{
-                        Text("Finale")
+                        NotificationsView()
                     }
                     .tabItem {
                         showTabImage(3)
@@ -77,7 +91,17 @@ struct ContentView: View {
                 .padding(.bottom , 8)
                 
             }
+            }
+            
+            
+        }.onAppear(){
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3 ){
+                withAnimation(){
+                    showSplash = false
+                }
+            }
         }
+        
     }
     
 }

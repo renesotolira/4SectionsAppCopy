@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.pemex.4oct.onesignal</string>
+		<string>group.com.pemex.4oct2.onesignal</string>
 	</array>
 </dict>
 </plist>

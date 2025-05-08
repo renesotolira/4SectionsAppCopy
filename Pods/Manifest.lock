@@ -1,0 +1,25 @@
+PODS:
+  - OneSignal (3.12.6):
+    - OneSignal/OneSignalCore (= 3.12.6)
+    - OneSignal/OneSignalExtension (= 3.12.6)
+    - OneSignal/OneSignalOutcomes (= 3.12.6)
+  - OneSignal/OneSignalCore (3.12.6)
+  - OneSignal/OneSignalExtension (3.12.6):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalOutcomes (3.12.6):
+    - OneSignal/OneSignalCore
+
+DEPENDENCIES:
+  - OneSignal (= 3.12.6)
+
+SPEC REPOS:
+  trunk:
+    - OneSignal
+
+SPEC CHECKSUMS:
+  OneSignal: 009d1c9cc54b305abb7a2a1011405440ce36723f
+
+PODFILE CHECKSUM: 238bbef48b63f7748ae26020e60fff2b50e710c2
+
+COCOAPODS: 1.16.2

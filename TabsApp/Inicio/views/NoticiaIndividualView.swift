@@ -11,7 +11,7 @@ struct NoticiaIndividualView: View {
     let screenHeight = UIScreen.main.bounds.height
     let screenAncho = UIScreen.main.bounds.width
     @Environment(\.presentationMode) var presentationMode
-    var noticia: NoticiaApiModel
+    var noticia: Int//NoticiaApiModel
     @StateObject var noticiasApi = NoticiasViewModel()
     
     var body: some View {
@@ -56,7 +56,7 @@ struct NoticiaIndividualView: View {
             }.padding(4)
         }
         .onAppear(){
-            noticiasApi.getNoticiaById(id: noticia.id)
+            noticiasApi.getNoticiaById(id: noticia)
         }
         .navigationTitle(noticiasApi.noticia.titulo)
         .navigationBarTitleDisplayMode(.inline)

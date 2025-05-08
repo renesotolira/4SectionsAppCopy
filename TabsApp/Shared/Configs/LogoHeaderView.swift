@@ -10,11 +10,18 @@ import SwiftUI
 ///Esta vista imprime el logo para la cabecera con tamaño no ajustable de 36x36
 struct LogoHeaderView: View {
     var body: some View {
+        
+        HStack(){
+            
+        Text("GRUPO 4 DE OCTUBRE")
+            .fontWeight(.heavy)
+            
         Image(Images.toolbarLogo)
             .resizable()
-            //.frame(width: 220 , height: 50)
+            .frame(width: 30 , height: 30)
             .scaledToFit()
             .offset(y: -5)
+        }
     }
 }
 

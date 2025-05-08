@@ -13,14 +13,25 @@ struct InicioView: View {
    @StateObject var noticiasApi = NoticiasViewModel()
     //ObservedObject  ambos pueden ver los cambios de las variables @Published
     
+
     var body: some View {
             ScrollView {
                 
-                ForEach(noticiasApi.noticias, id: \.self.id) { noticiaIndex in
+                ForEach(noticiasApi.noticias.indices, id: \.self) { noticiaIndex in
+                    
                     LazyVStack {
-                        NoticiaFeedView(noticia: noticiaIndex)
+                        NoticiaFeedView(noticia: noticiasApi.noticias[noticiaIndex])
+                            .onAppear(){
+                                //aqui
+                               noticiasApi.nextData(noticiaIndex)
+                            }
                     }
                 }
+                
+                /*
+                 ForEach(directoryViewModel.directories.indices,id:\.self) { index in
+                 */
+                
                 ///
                 Button(action:{
                    // noticiasApi.getNoticiasFromApi()

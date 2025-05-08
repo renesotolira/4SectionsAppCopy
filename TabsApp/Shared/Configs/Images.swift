@@ -11,7 +11,8 @@ struct Images {
     
     
     static let appLogo: String = "logo"
-    static let toolbarLogo: String = "toolbar_logo"
+    static let screenLogo: String = "icon04"
+    static let toolbarLogo: String = "logoMovil"
     //iconos que se usarán en la Tab Bar (Es decir la sección de abajo de la app)
     static let tabHome: String = "home"
     static let tabGrid: String = "grid"

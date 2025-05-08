@@ -1,0 +1,6 @@
+framework module Pods_TabsApp {
+  umbrella header "Pods-TabsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905ACB872DC46AB200E6A108 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905ACB862DC46AB200E6A108 /* NotificationsView.swift */; };
+		9A2176C0834519DCF125F9D5 /* Pods_TabsApp_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8911236B0A15B2AB5ABB3367 /* Pods_TabsApp_OneSignalNotificationServiceExtension.framework */; };
 		A70E82B62D80C22300B66E49 /* StepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82B52D80C22300B66E49 /* StepView.swift */; };
 		A70E82B92D80C50600B66E49 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82B82D80C50600B66E49 /* Page.swift */; };
 		A70E82BC2D80C62700B66E49 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E82BB2D80C62700B66E49 /* PageView.swift */; };
@@ -21,6 +23,10 @@
 		A714E70E2D39FDFC00C5FF60 /* NoticiaFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */; };
 		A716E8CA2D9649E100CCA716 /* TarjetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716E8C92D9649E000CCA716 /* TarjetaView.swift */; };
 		A716E8D32D964D8500CCA716 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716E8D22D964D8500CCA716 /* UserModel.swift */; };
+		A72019912DB0AA43000DAD68 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72019902DB0AA43000DAD68 /* NotificationService.swift */; };
+		A72019952DB0AA43000DAD68 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A720198E2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A72019A12DB0B446000DAD68 /* DataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A720199F2DB0B446000DAD68 /* DataBase.xcdatamodeld */; };
+		A72019A52DB0B897000DAD68 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72019A42DB0B897000DAD68 /* PersistenceController.swift */; };
 		A74671E52D43330A00B9E1BB /* NavegacionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74671E42D43330A00B9E1BB /* NavegacionView.swift */; };
 		A74671E82D4336E700B9E1BB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74671E72D4336E700B9E1BB /* HeaderView.swift */; };
 		A74671EB2D43393100B9E1BB /* TopBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74671EA2D43393100B9E1BB /* TopBarViewModel.swift */; };
@@ -58,16 +64,12 @@
 		A79626FC2D55C988003FF738 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE32D55BA2E00529B03 /* Montserrat-SemiBoldItalic.ttf */; };
 		A79626FD2D55C988003FF738 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CDE2D55BA2D00529B03 /* Montserrat-Thin.ttf */; };
 		A79626FE2D55C988003FF738 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7860CE22D55BA2D00529B03 /* Montserrat-ThinItalic.ttf */; };
-		A798695F2DAE060D00251A52 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = A798695E2DAE060D00251A52 /* OneSignalInAppMessages */; };
-		A79869612DAE060D00251A52 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = A79869602DAE060D00251A52 /* OneSignalFramework */; };
-		A79869632DAE060D00251A52 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = A79869622DAE060D00251A52 /* OneSignalExtension */; };
-		A79869772DAE0F3A00251A52 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79869762DAE0F3A00251A52 /* NotificationService.swift */; };
-		A798697B2DAE0F3A00251A52 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A79869742DAE0F3A00251A52 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A799A4A62D55AFE200BA3424 /* ImagesVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A799A4A52D55AFE200BA3424 /* ImagesVisualizer.swift */; };
 		A7A9A0582D4C74C800BA47DE /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9A0572D4C74C800BA47DE /* AsyncImage.swift */; };
 		A7A9A05C2D4C74E500BA47DE /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9A05A2D4C74E500BA47DE /* ImageLoader.swift */; };
 		A7A9A05D2D4C74E500BA47DE /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9A05B2D4C74E500BA47DE /* ImageCache.swift */; };
 		A7A9A0602D4C750300BA47DE /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9A05F2D4C750300BA47DE /* EnvironmentValues+ImageCache.swift */; };
+		A7B730962DB1F8DF005B731B /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B730952DB1F8DF005B731B /* NotificationModel.swift */; };
 		A7BCB4C82D6585A10002086D /* ListadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB4C72D6585A10002086D /* ListadoView.swift */; };
 		A7BCB4CD2D6587CB0002086D /* ListadoApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB4CC2D6587CB0002086D /* ListadoApiModel.swift */; };
 		A7C112EF2DA8BA3900048ABE /* NegociosListaApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C112EE2DA8BA3900048ABE /* NegociosListaApiModel.swift */; };
@@ -95,26 +97,27 @@
 		A7FCD1132D8A67F600AED5DA /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD1122D8A67F600AED5DA /* VerificationCodeView.swift */; };
 		A7FCD1162D8A6F8E00AED5DA /* verificationCode.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7FCD1152D8A6F8E00AED5DA /* verificationCode.gif */; };
 		A7FCD1192D8A735300AED5DA /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD1182D8A735300AED5DA /* SignUpViewModel.swift */; };
+		DB1C26C768F31B3F413C2B04 /* Pods_TabsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E15D03C0F95A21756A6F6 /* Pods_TabsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A79869792DAE0F3A00251A52 /* PBXContainerItemProxy */ = {
+		A72019932DB0AA43000DAD68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7EBD9002D31FF5200F6BE82 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A79869732DAE0F3A00251A52;
+			remoteGlobalIDString = A720198D2DB0AA43000DAD68;
 			remoteInfo = OneSignalNotificationServiceExtension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A798697F2DAE0F3A00251A52 /* Embed App Extensions */ = {
+		A72019962DB0AA43000DAD68 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A798697B2DAE0F3A00251A52 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+				A72019952DB0AA43000DAD68 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +125,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		023E15D03C0F95A21756A6F6 /* Pods_TabsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0822F2CED5842491224AC01B /* Pods-TabsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabsApp.release.xcconfig"; path = "Target Support Files/Pods-TabsApp/Pods-TabsApp.release.xcconfig"; sourceTree = "<group>"; };
+		09A54BE1F5C661F1D24FF0FE /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		1EF96D361F11B383E92C99FE /* Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-TabsApp-OneSignalNotificationServiceExtension/Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		7FCCAC6F73CAA1F17EFA0E5C /* Pods-TabsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabsApp.debug.xcconfig"; path = "Target Support Files/Pods-TabsApp/Pods-TabsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8911236B0A15B2AB5ABB3367 /* Pods_TabsApp_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabsApp_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		905ACB862DC46AB200E6A108 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		A43C7C20629B6417C628458F /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		A70E82B52D80C22300B66E49 /* StepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepView.swift; sourceTree = "<group>"; };
 		A70E82B82D80C50600B66E49 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		A70E82BB2D80C62700B66E49 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
@@ -136,6 +147,12 @@
 		A714E70D2D39FDFB00C5FF60 /* NoticiaFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiaFeedViewModel.swift; sourceTree = "<group>"; };
 		A716E8C92D9649E000CCA716 /* TarjetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetaView.swift; sourceTree = "<group>"; };
 		A716E8D22D964D8500CCA716 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A720198E2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72019902DB0AA43000DAD68 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A72019922DB0AA43000DAD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A720199C2DB0AA95000DAD68 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		A72019A02DB0B446000DAD68 /* DataBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataBase.xcdatamodel; sourceTree = "<group>"; };
+		A72019A42DB0B897000DAD68 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		A74671E42D43330A00B9E1BB /* NavegacionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionView.swift; sourceTree = "<group>"; };
 		A74671E72D4336E700B9E1BB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		A74671EA2D43393100B9E1BB /* TopBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarViewModel.swift; sourceTree = "<group>"; };
@@ -174,15 +191,12 @@
 		A789495F2D8D196800927B04 /* SuccessSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessSignUpView.swift; sourceTree = "<group>"; };
 		A78EBC332DA625AD00197E8B /* BackNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackNavBar.swift; sourceTree = "<group>"; };
 		A79869652DAE088300251A52 /* TabsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TabsApp.entitlements; sourceTree = "<group>"; };
-		A79869742DAE0F3A00251A52 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		A79869762DAE0F3A00251A52 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		A79869782DAE0F3A00251A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A79869862DAE101700251A52 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
 		A799A4A52D55AFE200BA3424 /* ImagesVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesVisualizer.swift; sourceTree = "<group>"; };
 		A7A9A0572D4C74C800BA47DE /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		A7A9A05A2D4C74E500BA47DE /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		A7A9A05B2D4C74E500BA47DE /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		A7A9A05F2D4C750300BA47DE /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		A7B730952DB1F8DF005B731B /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 		A7BCB4C72D6585A10002086D /* ListadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoView.swift; sourceTree = "<group>"; };
 		A7BCB4CC2D6587CB0002086D /* ListadoApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoApiModel.swift; sourceTree = "<group>"; };
 		A7C112EE2DA8BA3900048ABE /* NegociosListaApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegociosListaApiModel.swift; sourceTree = "<group>"; };
@@ -212,13 +226,15 @@
 		A7FCD1122D8A67F600AED5DA /* VerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
 		A7FCD1152D8A6F8E00AED5DA /* verificationCode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = verificationCode.gif; sourceTree = "<group>"; };
 		A7FCD1182D8A735300AED5DA /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		EF0C6C7BD70560550FA7EED6 /* Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-TabsApp-OneSignalNotificationServiceExtension/Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A79869712DAE0F3A00251A52 /* Frameworks */ = {
+		A720198B2DB0AA43000DAD68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2176C0834519DCF125F9D5 /* Pods_TabsApp_OneSignalNotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,15 +242,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79869612DAE060D00251A52 /* OneSignalFramework in Frameworks */,
-				A79869632DAE060D00251A52 /* OneSignalExtension in Frameworks */,
-				A798695F2DAE060D00251A52 /* OneSignalInAppMessages in Frameworks */,
+				DB1C26C768F31B3F413C2B04 /* Pods_TabsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52D8A4041B89F57EA4479001 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FCCAC6F73CAA1F17EFA0E5C /* Pods-TabsApp.debug.xcconfig */,
+				0822F2CED5842491224AC01B /* Pods-TabsApp.release.xcconfig */,
+				A43C7C20629B6417C628458F /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				09A54BE1F5C661F1D24FF0FE /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				EF0C6C7BD70560550FA7EED6 /* Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				1EF96D361F11B383E92C99FE /* Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A70F066D2D542D20000B49D5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +301,16 @@
 				A716E8D22D964D8500CCA716 /* UserModel.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		A720198F2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A720199C2DB0AA95000DAD68 /* OneSignalNotificationServiceExtension.entitlements */,
+				A72019902DB0AA43000DAD68 /* NotificationService.swift */,
+				A72019922DB0AA43000DAD68 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		A7442DA82D374A7D00233481 /* Inicio */ = {
@@ -349,16 +386,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		A79869752DAE0F3A00251A52 /* OneSignalNotificationServiceExtension */ = {
-			isa = PBXGroup;
-			children = (
-				A79869862DAE101700251A52 /* OneSignalNotificationServiceExtension.entitlements */,
-				A79869762DAE0F3A00251A52 /* NotificationService.swift */,
-				A79869782DAE0F3A00251A52 /* Info.plist */,
-			);
-			path = OneSignalNotificationServiceExtension;
-			sourceTree = "<group>";
-		};
 		A799A4A12D55AE8700BA3424 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,8 +454,10 @@
 			isa = PBXGroup;
 			children = (
 				A7EBD90A2D31FF5300F6BE82 /* TabsApp */,
-				A79869752DAE0F3A00251A52 /* OneSignalNotificationServiceExtension */,
+				A720198F2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension */,
 				A7EBD9092D31FF5300F6BE82 /* Products */,
+				52D8A4041B89F57EA4479001 /* Pods */,
+				E7E32F8152D5C435534643C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -436,7 +465,7 @@
 			isa = PBXGroup;
 			children = (
 				A7EBD9082D31FF5300F6BE82 /* TabsApp.app */,
-				A79869742DAE0F3A00251A52 /* OneSignalNotificationServiceExtension.appex */,
+				A720198E2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -444,6 +473,7 @@
 		A7EBD90A2D31FF5300F6BE82 /* TabsApp */ = {
 			isa = PBXGroup;
 			children = (
+				A720199F2DB0B446000DAD68 /* DataBase.xcdatamodeld */,
 				A79869652DAE088300251A52 /* TabsApp.entitlements */,
 				A7FC4BB92D5C479C009D6D6F /* Pruebas */,
 				A7860CD92D55BA0D00529B03 /* Fonts */,
@@ -467,6 +497,7 @@
 				A7EBD9142D31FF5500F6BE82 /* Info.plist */,
 				A7EBD9112D31FF5500F6BE82 /* Preview Content */,
 				A74671EA2D43393100B9E1BB /* TopBarViewModel.swift */,
+				A72019A42DB0B897000DAD68 /* PersistenceController.swift */,
 			);
 			path = TabsApp;
 			sourceTree = "<group>";
@@ -482,6 +513,8 @@
 		A7EBD91B2D31FFBB00F6BE82 /* Notificaciones */ = {
 			isa = PBXGroup;
 			children = (
+				A7B730952DB1F8DF005B731B /* NotificationModel.swift */,
+				905ACB862DC46AB200E6A108 /* NotificationsView.swift */,
 			);
 			path = Notificaciones;
 			sourceTree = "<group>";
@@ -523,16 +556,26 @@
 			path = Pruebas;
 			sourceTree = "<group>";
 		};
+		E7E32F8152D5C435534643C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				023E15D03C0F95A21756A6F6 /* Pods_TabsApp.framework */,
+				8911236B0A15B2AB5ABB3367 /* Pods_TabsApp_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A79869732DAE0F3A00251A52 /* OneSignalNotificationServiceExtension */ = {
+		A720198D2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A798697C2DAE0F3A00251A52 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildConfigurationList = A72019992DB0AA43000DAD68 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				A79869702DAE0F3A00251A52 /* Sources */,
-				A79869712DAE0F3A00251A52 /* Frameworks */,
-				A79869722DAE0F3A00251A52 /* Resources */,
+				F5001858A4CB98CE2B0BC20C /* [CP] Check Pods Manifest.lock */,
+				A720198A2DB0AA43000DAD68 /* Sources */,
+				A720198B2DB0AA43000DAD68 /* Frameworks */,
+				A720198C2DB0AA43000DAD68 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -540,29 +583,26 @@
 			);
 			name = OneSignalNotificationServiceExtension;
 			productName = OneSignalNotificationServiceExtension;
-			productReference = A79869742DAE0F3A00251A52 /* OneSignalNotificationServiceExtension.appex */;
+			productReference = A720198E2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		A7EBD9072D31FF5200F6BE82 /* TabsApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7EBD9172D31FF5500F6BE82 /* Build configuration list for PBXNativeTarget "TabsApp" */;
 			buildPhases = (
+				9B7B3C3CF12CC3EFD172CD7D /* [CP] Check Pods Manifest.lock */,
 				A7EBD9042D31FF5200F6BE82 /* Sources */,
 				A7EBD9052D31FF5200F6BE82 /* Frameworks */,
 				A7EBD9062D31FF5200F6BE82 /* Resources */,
-				A798697F2DAE0F3A00251A52 /* Embed App Extensions */,
+				A72019962DB0AA43000DAD68 /* Embed App Extensions */,
+				6945B0D4BA5350F65FD95B43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A798697A2DAE0F3A00251A52 /* PBXTargetDependency */,
+				A72019942DB0AA43000DAD68 /* PBXTargetDependency */,
 			);
 			name = TabsApp;
-			packageProductDependencies = (
-				A798695E2DAE060D00251A52 /* OneSignalInAppMessages */,
-				A79869602DAE060D00251A52 /* OneSignalFramework */,
-				A79869622DAE060D00251A52 /* OneSignalExtension */,
-			);
 			productName = TabsApp;
 			productReference = A7EBD9082D31FF5300F6BE82 /* TabsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -576,7 +616,7 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					A79869732DAE0F3A00251A52 = {
+					A720198D2DB0AA43000DAD68 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 					A7EBD9072D31FF5200F6BE82 = {
@@ -593,21 +633,18 @@
 				Base,
 			);
 			mainGroup = A7EBD8FF2D31FF5200F6BE82;
-			packageReferences = (
-				A798695D2DAE060D00251A52 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
-			);
 			productRefGroup = A7EBD9092D31FF5300F6BE82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A7EBD9072D31FF5200F6BE82 /* TabsApp */,
-				A79869732DAE0F3A00251A52 /* OneSignalNotificationServiceExtension */,
+				A720198D2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A79869722DAE0F3A00251A52 /* Resources */ = {
+		A720198C2DB0AA43000DAD68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -653,12 +690,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6945B0D4BA5350F65FD95B43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabsApp/Pods-TabsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabsApp/Pods-TabsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabsApp/Pods-TabsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7B3C3CF12CC3EFD172CD7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5001858A4CB98CE2B0BC20C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabsApp-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		A79869702DAE0F3A00251A52 /* Sources */ = {
+		A720198A2DB0AA43000DAD68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79869772DAE0F3A00251A52 /* NotificationService.swift in Sources */,
+				A72019912DB0AA43000DAD68 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,10 +771,13 @@
 				A716E8D32D964D8500CCA716 /* UserModel.swift in Sources */,
 				A7BCB4CD2D6587CB0002086D /* ListadoApiModel.swift in Sources */,
 				A70F066F2D542D36000B49D5 /* Connection.swift in Sources */,
+				A72019A52DB0B897000DAD68 /* PersistenceController.swift in Sources */,
+				905ACB872DC46AB200E6A108 /* NotificationsView.swift in Sources */,
 				A714E70E2D39FDFC00C5FF60 /* NoticiaFeedViewModel.swift in Sources */,
 				A7E79E872D813A0D003879E6 /* GifExampleView.swift in Sources */,
 				A7E79E842D8139D2003879E6 /* GIFPlayerView.swift in Sources */,
 				A70E82B92D80C50600B66E49 /* Page.swift in Sources */,
+				A72019A12DB0B446000DAD68 /* DataBase.xcdatamodeld in Sources */,
 				A7FB612C2D835D0C00E7C806 /* FormatoView.swift in Sources */,
 				A7C112EF2DA8BA3900048ABE /* NegociosListaApiModel.swift in Sources */,
 				A74671EB2D43393100B9E1BB /* TopBarViewModel.swift in Sources */,
@@ -706,6 +810,7 @@
 				A7FC4BBB2D5C47B2009D6D6F /* ConveniosView.swift in Sources */,
 				A74816C62D77F8590039045F /* NegocioView.swift in Sources */,
 				A78EBC342DA625AD00197E8B /* BackNavBar.swift in Sources */,
+				A7B730962DB1F8DF005B731B /* NotificationModel.swift in Sources */,
 				A7C112F32DA8C7B600048ABE /* BusinessRow.swift in Sources */,
 				A7EBD90E2D31FF5300F6BE82 /* ContentView.swift in Sources */,
 				A7EBD90C2D31FF5300F6BE82 /* TabsAppApp.swift in Sources */,
@@ -725,20 +830,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A798697A2DAE0F3A00251A52 /* PBXTargetDependency */ = {
+		A72019942DB0AA43000DAD68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A79869732DAE0F3A00251A52 /* OneSignalNotificationServiceExtension */;
-			targetProxy = A79869792DAE0F3A00251A52 /* PBXContainerItemProxy */;
+			target = A720198D2DB0AA43000DAD68 /* OneSignalNotificationServiceExtension */;
+			targetProxy = A72019932DB0AA43000DAD68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		A798697D2DAE0F3A00251A52 /* Debug */ = {
+		A72019972DB0AA43000DAD68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0C6C7BD70560550FA7EED6 /* Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U788X3C3VA;
+				DEVELOPMENT_TEAM = PXQ8735R28;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -746,20 +853,23 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pemex.4oct.OneSignalNotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pemex.4oct2.OneSignalNotificationServiceExtension.v2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A798697E2DAE0F3A00251A52 /* Release */ = {
+		A72019982DB0AA43000DAD68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF96D361F11B383E92C99FE /* Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U788X3C3VA;
+				DEVELOPMENT_TEAM = PXQ8735R28;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -767,8 +877,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pemex.4oct.OneSignalNotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pemex.4oct2.OneSignalNotificationServiceExtension.v2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -826,7 +937,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -881,7 +992,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -893,6 +1004,7 @@
 		};
 		A7EBD9182D31FF5500F6BE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCCAC6F73CAA1F17EFA0E5C /* Pods-TabsApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -900,7 +1012,7 @@
 				CODE_SIGN_ENTITLEMENTS = TabsApp/TabsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TabsApp/Preview Content\"";
-				DEVELOPMENT_TEAM = U788X3C3VA;
+				DEVELOPMENT_TEAM = PXQ8735R28;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TabsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -908,7 +1020,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pemex.4oct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pemex.4oct2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -917,6 +1029,7 @@
 		};
 		A7EBD9192D31FF5500F6BE82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0822F2CED5842491224AC01B /* Pods-TabsApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -924,7 +1037,7 @@
 				CODE_SIGN_ENTITLEMENTS = TabsApp/TabsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TabsApp/Preview Content\"";
-				DEVELOPMENT_TEAM = U788X3C3VA;
+				DEVELOPMENT_TEAM = PXQ8735R28;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TabsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -932,7 +1045,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pemex.4oct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pemex.4oct2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -942,11 +1055,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A798697C2DAE0F3A00251A52 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+		A72019992DB0AA43000DAD68 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A798697D2DAE0F3A00251A52 /* Debug */,
-				A798697E2DAE0F3A00251A52 /* Release */,
+				A72019972DB0AA43000DAD68 /* Debug */,
+				A72019982DB0AA43000DAD68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -971,34 +1084,18 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		A798695D2DAE060D00251A52 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.10;
-			};
+/* Begin XCVersionGroup section */
+		A720199F2DB0B446000DAD68 /* DataBase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A72019A02DB0B446000DAD68 /* DataBase.xcdatamodel */,
+			);
+			currentVersion = A72019A02DB0B446000DAD68 /* DataBase.xcdatamodel */;
+			path = DataBase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A798695E2DAE060D00251A52 /* OneSignalInAppMessages */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A798695D2DAE060D00251A52 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
-			productName = OneSignalInAppMessages;
-		};
-		A79869602DAE060D00251A52 /* OneSignalFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A798695D2DAE060D00251A52 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
-			productName = OneSignalFramework;
-		};
-		A79869622DAE060D00251A52 /* OneSignalExtension */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A798695D2DAE060D00251A52 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
-			productName = OneSignalExtension;
-		};
-/* End XCSwiftPackageProductDependency section */
+/* End XCVersionGroup section */
 	};
 	rootObject = A7EBD9002D31FF5200F6BE82 /* Project object */;
 }

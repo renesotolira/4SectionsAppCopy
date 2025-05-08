@@ -34,7 +34,7 @@ struct NoticiaFeedView: View {
             Text(noticia.content ?? "-- sin descripción --")
                 .font(.custom("Montserrat-Regular", size: 16))
                 
-            NavigationLink(destination: NoticiaIndividualView(noticia: noticia)
+            NavigationLink(destination: NoticiaIndividualView(noticia: noticia.id)
             ){
                 Text("Ver más")
             }

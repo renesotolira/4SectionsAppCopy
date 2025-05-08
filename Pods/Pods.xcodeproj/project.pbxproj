@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4BEDE8419E52BD08B0E6C875B5CD08A /* Build configuration list for PBXAggregateTarget "OneSignal" */;
+			buildPhases = (
+				2CC561DE65F0F66F6AE8852576B8C8B7 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = OneSignal;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2FFEC8A26E4804F784BB21038BB5DAEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		3DB6C457CE34BFB74CCDF5F7B62259DF /* Pods-TabsApp-OneSignalNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FD579ADD810ADFECD3CC5573785CA0 /* Pods-TabsApp-OneSignalNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		475666658D2C8B39B0CA10068EAC6E51 /* Pods-TabsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0732699AD278DD1F8EB62293F1F6F7 /* Pods-TabsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D27701E248D320278B998F6E8442F74D /* Pods-TabsApp-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A364F2BED7D208F04AEDDB67B40F /* Pods-TabsApp-OneSignalNotificationServiceExtension-dummy.m */; };
+		E25B637AB252FD991F80B730119ED4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		ECF378C5A5C8222CBDE220B697ED389D /* Pods-TabsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B16C458D8A9A297130B8BE958F6A81E /* Pods-TabsApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6180BE8A0ACE7549D5E247BB2F164E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210EB05CEC7AD9C148F90F752DE74C48;
+			remoteInfo = OneSignal;
+		};
+		EC57630912FB49F23BBC35EF84BA1054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210EB05CEC7AD9C148F90F752DE74C48;
+			remoteInfo = OneSignal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		122701016DBB6B3CCC4238C5A76708CA /* Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		29CA69F3EACFFF049A1433240F4DB6D7 /* Pods-TabsApp-OneSignalNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TabsApp-OneSignalNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
+		32D4C0F9C70F5ED6815164888992A30A /* OneSignal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneSignal.debug.xcconfig; sourceTree = "<group>"; };
+		3670967AED8A39A60CF61E323B6C4027 /* Pods-TabsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D68D5B450251CED3A80E2E140402790 /* OneSignalOutcomes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OneSignalOutcomes.xcframework; path = iOS_SDK/OneSignalSDK/OneSignal_Outcomes/OneSignalOutcomes.xcframework; sourceTree = "<group>"; };
+		501FE670ED1C064CD0A745C63EEFD392 /* Pods-TabsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabsApp-Info.plist"; sourceTree = "<group>"; };
+		55C8A364F2BED7D208F04AEDDB67B40F /* Pods-TabsApp-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabsApp-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		5C0732699AD278DD1F8EB62293F1F6F7 /* Pods-TabsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabsApp-umbrella.h"; sourceTree = "<group>"; };
+		675F4BE3536BBE4BC0C4D1B76E1EAA74 /* Pods-TabsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabsApp.release.xcconfig"; sourceTree = "<group>"; };
+		67C200DE90F79B11E96EC1B56E993654 /* Pods-TabsApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TabsApp"; path = Pods_TabsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D76472970911FD8EA9F3DAC572B06B /* OneSignal.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OneSignal.xcframework; path = iOS_SDK/OneSignalSDK/OneSignal_XCFramework/OneSignal.xcframework; sourceTree = "<group>"; };
+		692DAD4602C6261D079B05453074FD5B /* OneSignal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneSignal.release.xcconfig; sourceTree = "<group>"; };
+		848EDF04BA36E7D4AB9204D214748EBB /* OneSignalCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OneSignalCore.xcframework; path = iOS_SDK/OneSignalSDK/OneSignal_Core/OneSignalCore.xcframework; sourceTree = "<group>"; };
+		93C195932AB3173CFA93B23383C65F44 /* Pods-TabsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TabsApp.modulemap"; sourceTree = "<group>"; };
+		9B16C458D8A9A297130B8BE958F6A81E /* Pods-TabsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabsApp-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A50917A8FFE4FAA0ED03B067FD6DC229 /* Pods-TabsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabsApp-frameworks.sh"; sourceTree = "<group>"; };
+		C4E61D4376360DA47218A0EDEF8274D2 /* Pods-TabsApp-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabsApp-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C54716F53070624FB3AE9BEC2E97A0F9 /* Pods-TabsApp-OneSignalNotificationServiceExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TabsApp-OneSignalNotificationServiceExtension"; path = Pods_TabsApp_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FD579ADD810ADFECD3CC5573785CA0 /* Pods-TabsApp-OneSignalNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabsApp-OneSignalNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		DD4EBFFBDA6B42DB63E10139A577EE2E /* Pods-TabsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDDE6AC0BDC97FD27175476EDDA927C0 /* Pods-TabsApp-OneSignalNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabsApp-OneSignalNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
+		DF03853213081B37ED139669FDA76B37 /* Pods-TabsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F05B7D00E31350AF78E3514137DFE962 /* Pods-TabsApp-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabsApp-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7B11D6E48BB538168C1A49DD08B8DB8 /* Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		FE29B4D2861829013B41C1823922DD2F /* OneSignalExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OneSignalExtension.xcframework; path = iOS_SDK/OneSignalSDK/OneSignal_Extension/OneSignalExtension.xcframework; sourceTree = "<group>"; };
+		FF3D5335B0D5CA5AE81D3B5AC8AE8B90 /* OneSignal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OneSignal-xcframeworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FC1C1BB3D0DA26B3A4B0923A75AF1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFEC8A26E4804F784BB21038BB5DAEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACF5B7475D2FEEFAF1729961D1BFDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25B637AB252FD991F80B730119ED4FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B53E081D56046CD7C8B0F4E4A5EB6E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67C200DE90F79B11E96EC1B56E993654 /* Pods-TabsApp */,
+				C54716F53070624FB3AE9BEC2E97A0F9 /* Pods-TabsApp-OneSignalNotificationServiceExtension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DAA620A5F2F3B5AF13BD663FC6379D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E9C40E21331B3ED88755C4B4D5F1EF /* OneSignal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20E9C40E21331B3ED88755C4B4D5F1EF /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				D0E878077C22505441AEBCC68C885BAD /* Frameworks */,
+				EA40CF3C4728181B9EDCD4A80361374D /* OneSignalCore */,
+				87B3FF502E5F2A80BADF5D7F91E181B2 /* OneSignalExtension */,
+				6794C7B4783E2101FF68D75933B265B2 /* OneSignalOutcomes */,
+				56466341207DB33737EF454F7B76D434 /* Support Files */,
+			);
+			name = OneSignal;
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		2BB4DE0F5F90B7A94F3968EFDE01B0B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE29B4D2861829013B41C1823922DD2F /* OneSignalExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56466341207DB33737EF454F7B76D434 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D5335B0D5CA5AE81D3B5AC8AE8B90 /* OneSignal-xcframeworks.sh */,
+				32D4C0F9C70F5ED6815164888992A30A /* OneSignal.debug.xcconfig */,
+				692DAD4602C6261D079B05453074FD5B /* OneSignal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OneSignal";
+			sourceTree = "<group>";
+		};
+		6794C7B4783E2101FF68D75933B265B2 /* OneSignalOutcomes */ = {
+			isa = PBXGroup;
+			children = (
+				7807FC7CD18BE8ADE7858198BF3381FE /* Frameworks */,
+			);
+			name = OneSignalOutcomes;
+			sourceTree = "<group>";
+		};
+		6A32A16805A4864C09B1F5C1BF32E73E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848EDF04BA36E7D4AB9204D214748EBB /* OneSignalCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7807FC7CD18BE8ADE7858198BF3381FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D68D5B450251CED3A80E2E140402790 /* OneSignalOutcomes.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8688375FF8C4883B94ECAF6927BC9853 /* Pods-TabsApp */ = {
+			isa = PBXGroup;
+			children = (
+				93C195932AB3173CFA93B23383C65F44 /* Pods-TabsApp.modulemap */,
+				3670967AED8A39A60CF61E323B6C4027 /* Pods-TabsApp-acknowledgements.markdown */,
+				DD4EBFFBDA6B42DB63E10139A577EE2E /* Pods-TabsApp-acknowledgements.plist */,
+				9B16C458D8A9A297130B8BE958F6A81E /* Pods-TabsApp-dummy.m */,
+				A50917A8FFE4FAA0ED03B067FD6DC229 /* Pods-TabsApp-frameworks.sh */,
+				501FE670ED1C064CD0A745C63EEFD392 /* Pods-TabsApp-Info.plist */,
+				5C0732699AD278DD1F8EB62293F1F6F7 /* Pods-TabsApp-umbrella.h */,
+				DF03853213081B37ED139669FDA76B37 /* Pods-TabsApp.debug.xcconfig */,
+				675F4BE3536BBE4BC0C4D1B76E1EAA74 /* Pods-TabsApp.release.xcconfig */,
+			);
+			name = "Pods-TabsApp";
+			path = "Target Support Files/Pods-TabsApp";
+			sourceTree = "<group>";
+		};
+		87B3FF502E5F2A80BADF5D7F91E181B2 /* OneSignalExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4DE0F5F90B7A94F3968EFDE01B0B2 /* Frameworks */,
+			);
+			name = OneSignalExtension;
+			sourceTree = "<group>";
+		};
+		8C7C92DB73C4E0C7CD3026374BE04322 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8688375FF8C4883B94ECAF6927BC9853 /* Pods-TabsApp */,
+				BD0F9C0917F533C9E763112D36644EB9 /* Pods-TabsApp-OneSignalNotificationServiceExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BD0F9C0917F533C9E763112D36644EB9 /* Pods-TabsApp-OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				29CA69F3EACFFF049A1433240F4DB6D7 /* Pods-TabsApp-OneSignalNotificationServiceExtension.modulemap */,
+				C4E61D4376360DA47218A0EDEF8274D2 /* Pods-TabsApp-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
+				F05B7D00E31350AF78E3514137DFE962 /* Pods-TabsApp-OneSignalNotificationServiceExtension-acknowledgements.plist */,
+				55C8A364F2BED7D208F04AEDDB67B40F /* Pods-TabsApp-OneSignalNotificationServiceExtension-dummy.m */,
+				DDDE6AC0BDC97FD27175476EDDA927C0 /* Pods-TabsApp-OneSignalNotificationServiceExtension-Info.plist */,
+				D5FD579ADD810ADFECD3CC5573785CA0 /* Pods-TabsApp-OneSignalNotificationServiceExtension-umbrella.h */,
+				F7B11D6E48BB538168C1A49DD08B8DB8 /* Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				122701016DBB6B3CCC4238C5A76708CA /* Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-TabsApp-OneSignalNotificationServiceExtension";
+			path = "Target Support Files/Pods-TabsApp-OneSignalNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1DAA620A5F2F3B5AF13BD663FC6379D5 /* Pods */,
+				0B53E081D56046CD7C8B0F4E4A5EB6E5 /* Products */,
+				8C7C92DB73C4E0C7CD3026374BE04322 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E878077C22505441AEBCC68C885BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67D76472970911FD8EA9F3DAC572B06B /* OneSignal.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA40CF3C4728181B9EDCD4A80361374D /* OneSignalCore */ = {
+			isa = PBXGroup;
+			children = (
+				6A32A16805A4864C09B1F5C1BF32E73E /* Frameworks */,
+			);
+			name = OneSignalCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B84133790BFD17F95DEF6C33B96BBDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475666658D2C8B39B0CA10068EAC6E51 /* Pods-TabsApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD02BD24B6A7EE490D79337DA3FAC216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB6C457CE34BFB74CCDF5F7B62259DF /* Pods-TabsApp-OneSignalNotificationServiceExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DEF95BA242C7B484675AF66EE24952D /* Pods-TabsApp-OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D26276AF22E2556FFE499FC06FF2BB /* Build configuration list for PBXNativeTarget "Pods-TabsApp-OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				CD02BD24B6A7EE490D79337DA3FAC216 /* Headers */,
+				0F34E8A375267814209190E9F80EE5F4 /* Sources */,
+				1FC1C1BB3D0DA26B3A4B0923A75AF1E0 /* Frameworks */,
+				92227FBAD765082A203930E29A311798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9391A79CBE4449F002A408BA5A79E7E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TabsApp-OneSignalNotificationServiceExtension";
+			productName = Pods_TabsApp_OneSignalNotificationServiceExtension;
+			productReference = C54716F53070624FB3AE9BEC2E97A0F9 /* Pods-TabsApp-OneSignalNotificationServiceExtension */;
+			productType = "com.apple.product-type.framework";
+		};
+		68A95C8CB03088448F102D94C098CDF3 /* Pods-TabsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C6A1B0F45123B2632D37B175F0DBBD /* Build configuration list for PBXNativeTarget "Pods-TabsApp" */;
+			buildPhases = (
+				6B84133790BFD17F95DEF6C33B96BBDB /* Headers */,
+				43159F4E3AF665A22579AA0B78B9232D /* Sources */,
+				AACF5B7475D2FEEFAF1729961D1BFDFC /* Frameworks */,
+				950D20E79E398F130D2BAB59BF09822E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C55E165CA36B9CBD14BD5AD01F6BAA /* PBXTargetDependency */,
+			);
+			name = "Pods-TabsApp";
+			productName = Pods_TabsApp;
+			productReference = 67C200DE90F79B11E96EC1B56E993654 /* Pods-TabsApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0B53E081D56046CD7C8B0F4E4A5EB6E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */,
+				68A95C8CB03088448F102D94C098CDF3 /* Pods-TabsApp */,
+				0DEF95BA242C7B484675AF66EE24952D /* Pods-TabsApp-OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92227FBAD765082A203930E29A311798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950D20E79E398F130D2BAB59BF09822E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC561DE65F0F66F6AE8852576B8C8B7 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/OneSignal/OneSignal-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/OneSignal/OneSignal-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OneSignal/OneSignal-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F34E8A375267814209190E9F80EE5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27701E248D320278B998F6E8442F74D /* Pods-TabsApp-OneSignalNotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43159F4E3AF665A22579AA0B78B9232D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF378C5A5C8222CBDE220B697ED389D /* Pods-TabsApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9391A79CBE4449F002A408BA5A79E7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneSignal;
+			target = 210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */;
+			targetProxy = EC57630912FB49F23BBC35EF84BA1054 /* PBXContainerItemProxy */;
+		};
+		C8C55E165CA36B9CBD14BD5AD01F6BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneSignal;
+			target = 210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */;
+			targetProxy = D6180BE8A0ACE7549D5E247BB2F164E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A49AA9A2B273E5886C1845239100421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D4C0F9C70F5ED6815164888992A30A /* OneSignal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5517AA0A5167B899B6D55AB5F6C8E0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF03853213081B37ED139669FDA76B37 /* Pods-TabsApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabsApp/Pods-TabsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabsApp/Pods-TabsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		784FA4E11C6869042268F98837DA4B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122701016DBB6B3CCC4238C5A76708CA /* Pods-TabsApp-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabsApp-OneSignalNotificationServiceExtension/Pods-TabsApp-OneSignalNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabsApp-OneSignalNotificationServiceExtension/Pods-TabsApp-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AD19D5B7AE040918C343AFA24CED287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B11D6E48BB538168C1A49DD08B8DB8 /* Pods-TabsApp-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabsApp-OneSignalNotificationServiceExtension/Pods-TabsApp-OneSignalNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabsApp-OneSignalNotificationServiceExtension/Pods-TabsApp-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9605170AA69C93F2CB7F254E1353D187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675F4BE3536BBE4BC0C4D1B76E1EAA74 /* Pods-TabsApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabsApp/Pods-TabsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabsApp/Pods-TabsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F70F8AB095C8A7BA142F4F0B8AF458E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692DAD4602C6261D079B05453074FD5B /* OneSignal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46C6A1B0F45123B2632D37B175F0DBBD /* Build configuration list for PBXNativeTarget "Pods-TabsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5517AA0A5167B899B6D55AB5F6C8E0D0 /* Debug */,
+				9605170AA69C93F2CB7F254E1353D187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D26276AF22E2556FFE499FC06FF2BB /* Build configuration list for PBXNativeTarget "Pods-TabsApp-OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD19D5B7AE040918C343AFA24CED287 /* Debug */,
+				784FA4E11C6869042268F98837DA4B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BEDE8419E52BD08B0E6C875B5CD08A /* Build configuration list for PBXAggregateTarget "OneSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A49AA9A2B273E5886C1845239100421 /* Debug */,
+				F70F8AB095C8A7BA142F4F0B8AF458E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
